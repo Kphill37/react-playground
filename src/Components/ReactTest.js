@@ -1,8 +1,22 @@
 import React from 'react'
+import '../ReactTest.css'
 
 function ReactTest() {
   return (
-    <h1>Hello Friends</h1>
+    <div>
+      <h1>My Todos</h1>
+      <ul>
+        <li>
+          Study React <input type="checkbox"></input>
+        </li>
+        <li>
+          Whiteboard Challenges <input type="checkbox"></input>
+        </li>
+        <li>
+          Walk the dog <input type="checkbox"></input>
+        </li>
+      </ul>
+    </div>
   )
 }
 
